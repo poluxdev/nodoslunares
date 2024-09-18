@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/nodoslunares/static/css/main.8595b8a6.css",
+    "main.js": "/nodoslunares/static/js/main.dc88ba48.js",
+    "static/js/453.e88af13e.chunk.js": "/nodoslunares/static/js/453.e88af13e.chunk.js",
+    "static/media/tierra.png": "/nodoslunares/static/media/tierra.62569ff3dbd59fbe8e8f.png",
+    "static/media/universo.jpg": "/nodoslunares/static/media/universo.9d421723e73db4a07a73.jpg",
+    "index.html": "/nodoslunares/index.html",
+    "main.8595b8a6.css.map": "/nodoslunares/static/css/main.8595b8a6.css.map",
+    "main.dc88ba48.js.map": "/nodoslunares/static/js/main.dc88ba48.js.map",
+    "453.e88af13e.chunk.js.map": "/nodoslunares/static/js/453.e88af13e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8595b8a6.css",
+    "static/js/main.dc88ba48.js"
+  ]
+}
