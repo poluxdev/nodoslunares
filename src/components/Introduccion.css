@@ -1,0 +1,98 @@
+/* src/components/Introduccion.css */
+.introduccion-container {
+  padding: 20px;
+  background-color: #1a1a2e; /* Un fondo oscuro que contraste con los otros elementos */
+  border-radius: 10px;
+  text-align: center;
+  color: #ffffff; /* Texto blanco para mejor contraste */
+}
+
+.alert-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #00aaff; /* Azul brillante que contraste con el fondo oscuro */
+  margin-bottom: 20px;
+  text-align: center;
+  animation: glowing 1.5s infinite;
+}
+
+
+
+.graphic-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  background-color: #282846; /* Fondo oscuro para el gráfico */
+  border-radius: 50%;
+  border: 2px solid #00aaff; /* Borde que combine con el color del texto */
+}
+
+.orbit {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px dashed #00aaff;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  transform: rotate(45deg);
+}
+
+.ecliptic {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #ff4500;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.node {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #00aaff;
+  border: 2px solid #ffffff;
+}
+
+.node-north {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.node-south {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.earth {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.label {
+  position: absolute;
+  font-size: 14px;
+  color: #ffffff; /* Color de texto que resalta sobre el fondo oscuro */
+}
+
+.label-north {
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.label-south {
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}

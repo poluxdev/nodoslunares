@@ -1,0 +1,50 @@
+/* App.css */
+
+/* Estilos para el título centrado con efecto estático */
+.centered-title {
+    text-align: center;
+    color: #0000FF; /* Azul para el texto */
+    font-size: 2rem; /* Tamaño de fuente ajustable */
+    margin-top: 20px;
+   
+}
+
+
+
+/* Estilos para el contenedor de la calculadora */
+.calculadora-container {
+    background: rgba(0, 0, 0, 0.7); /* Fondo oscuro con opacidad */
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff; /* Color de texto blanco */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Sombra blanca más pequeña para el contenedor */
+    max-width: 600px; /* Ancho máximo ajustable */
+    margin: 0 auto; /* Centrar el contenedor en la página */
+}
+
+/* Estilos para los botones */
+.btn-primary {
+    background-color: #FFD700; /* Amarillo resplandeciente para los botones */
+    border: none;
+    color: #000; /* Color del texto en el botón */
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #FFC107; /* Amarillo más oscuro al pasar el ratón */
+}
+
+/* Estilos para los campos de formulario */
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+}
